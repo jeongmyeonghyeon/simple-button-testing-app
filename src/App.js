@@ -28,7 +28,7 @@ function App() {
         <div>
           <button
             data-testid="on/off-button"
-            style={{ backgroundColor: "blue" }}
+            style={{ backgroundColor: "#79f2c0" }}
             onClick={() => setDisabled((prev) => !prev)}
           >
             on/off

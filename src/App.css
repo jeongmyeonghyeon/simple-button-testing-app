@@ -22,6 +22,5 @@ button[data-testid="plus-button"] {
   margin-left: 8px;
 }
 button[data-testid="on/off-button"] {
-  background-color: blue;
   margin-top: 8px;
 }

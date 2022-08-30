@@ -47,10 +47,10 @@ test("when the minus button is pressed, the counter changes to -1", () => {
   expect(counterElement).toHaveTextContent(-1);
 });
 
-test("on/off button has blue color", () => {
+test("on/off button has green color", () => {
   render(<App />);
   const buttonElement = screen.getByTestId("on/off-button");
-  expect(buttonElement).toHaveStyle({ background: "blue" });
+  expect(buttonElement).toHaveStyle({ backgroundColor: "#79f2c0" });
 });
 
 test("prevent the -,+ button from being pressed when the on/off button is clicked", () => {
